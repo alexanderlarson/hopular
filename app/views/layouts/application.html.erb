@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hopular</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a href="#" class="navbar-brand">Hopular</a>
+			<ul class="nav navbar-nav">
+				<li><%= link_to "All Statuses", statuses_path %></li>
+			</ul>
+<!-- 			<p class="notice"><%= notice %></p>
+       		<p class="alert"><%= alert %></p> -->
+       	</div>
+    </div>
+</div>
+	<div class="container">
+		<%= yield %>
+	</div>
+	<footer class="bs-footer navbar-fixed-bottom" role="contentinfo">
+		<div class="container">
+		<div class="page-footer">
+			<ul class="footer-links">
+				<li>Made by Alex</li>
+				<li class="muted">·</li>
+				<li><a href="http://alexanderlarson.net">alexanderlarson.net</a></li>
+				<li class="muted">·</li>
+				<li><a href="http://github.com/alexanderlarson">Alex's Github</a></li>
+				<li class="muted">·</li>
+				<li><a href="https://www.dropbox.com/s/f5tn9fxnvx3iy4n/AlexanderLarson.pdf">Resume</a></li>
+				<li><iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=alexanderlarson&repo=rails_blog&type=watch&count=true" width="100" height="20" title="Star on GitHub"></iframe></li>
+				<li><iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=alexanderlarson&;repo=rails_blog&;type=fork&;count=true" width="102" height="20" title="Fork on GitHub"></iframe></li>
+			</ul>
+		</div>
+	</div>
+	</footer>	
+</div>
+</body>
+</html>
