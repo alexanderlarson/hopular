@@ -26,3 +26,9 @@ li {
 	list-style-type: none;
 	bottom: 0;
 }
+
+.page-footer {
+	overflow: hidden;
+	background-color: #FFF;
+	margin-top: 20px;
+}
