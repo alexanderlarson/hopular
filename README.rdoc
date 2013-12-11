@@ -1,1 +1,3 @@
-A Simple Rails app to help you drink socially!
+==A Simple Rails app to help you drink socially
+
+Practice using Devise for authentication (instead of BCrypt), SQlite (instead of Postgres), scaffolding, and Bootstrap.

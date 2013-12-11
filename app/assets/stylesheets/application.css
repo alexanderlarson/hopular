@@ -17,16 +17,12 @@ body {
 }
 
 li {
-	text-align: -webkit-match-parent;
+	text-align: center;
+	display: inline;
 }
 
-.footer-links li {
-	display: inline;
+.footer-links {
 	padding: 0 2px;
 	list-style-type: none;
 	bottom: 0;
-}
-
-.muted {
-	
 }
